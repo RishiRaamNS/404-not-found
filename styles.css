@@ -1,0 +1,56 @@
+.header {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    padding: 10px 10px 100px 20px;
+    font-size: 24px;
+    letter-spacing: -0.08em;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+}
+.text-section {
+      font-family: 'Space Mono', monospace;
+}
+.main-image {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.main-heading {
+    font-weight: 700;
+}
+
+.main-text {
+    font-weight: 400;
+    padding-right: 50px;
+    size: 24px;
+}
+
+.text-section {
+    max-width: 350px;
+}
+
+.main-btn {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.1px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 575px) {
+    .main-section {
+        display: block;
+        padding-left: 20px;
+    }
+    .image-section {
+        text-align: center;
+    }
+
+   .main-heading {
+    padding-right: 90px;
+   }
+}
